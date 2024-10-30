@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///home/teja/Projects/oauth2/springboot services/oauth2-config # if the git config is present in local system
